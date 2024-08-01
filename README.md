@@ -1,41 +1,62 @@
- # EXP 1
+ # EXP 2
 
 ## Aim:
-_**To print "Hello World" and study the following concepts:**_
-+ **Introduce Basic C++ Syntax:**
- Demonstrate the fundamental structure of a C++ program, including header inclusion, the main() function, and the use of the return statement.
-+ **Teach Basic Input/Output:** 
- Show how to use the std::cout stream to print text to the console, introducing standard output handling in C++.
-+ **Familiarize with C++ Compilation Process:**
- Guide beginners on how to compile and run a C++ program, providing a practical introduction to using a C++ compiler (e.g., g++).
+**To study and implement C++ Program Structure (Data Types).**
 
 ## **Software:** 
- VSCode
+Microsoft VSCode
 
 
 ## Theory:
-_The "Hello, World!" program is often the first program written by beginners because it introduces key concepts like syntax, functions, input/output, and the compilation process. Understanding this basic program lays a strong foundation for learning more complex C++ programming concepts._
+_Data types define the type of data that a variable can hold, such as `integers`, `floating-point numbers`, `characters`, and more.We can also find the size of these data types by using `sizeof` keyword. These data types can be subdivided into three parts which are as follows_
++ **Basic Datatype**
++ **Derived Datatype**
++ **User-Defined Datatype**
 
-### Structure of a C++ Program is as follows:
-+ **Preprocessor Directives:** The line `#include <iostream>` is a preprocessor directive that tells the compiler to include the input-output stream library (iostream) in the program. This library allows us to use std::cout to print text to the console.
-+ **The main() Function:** The main() function is the entry point of every C++ program. It’s where the execution begins. The function has a return type of int, indicating that it returns an integer value. In this case, it returns 0 to indicate successful execution.
-+ **Standard Output Stream (std::cout):** The std::cout object is part of the C++ standard library and is used to output text to the console. The `<< operator` is used to send data to std::cout. In this program, "Hello, World!" is sent to the console, followed by std::endl, which inserts a newline character.
-+ **Return Statement:** The return 0; statement indicates that the program has executed successfully. In C++, returning 0 from the main() function is a convention that signals to the operating system that the program completed without errors.
 
-## Code:
-```//KANWALJEET SINGH
+ Storage class in C++ determines the characteristics of a variable.
+C++ has 5 types of storage classes which are as follows:
++ **Auto**
++ **Extern**
++ **Mutable**
++ **Register**
++ **Static**
+
+
+## Code:A
+```
+//KANWALJEET SINGH
+//ENTC B2
+//EXP 2.1
 //23070123124
-//ENTCB2
-//EXP 1
-#include<iostream>
-int main(){
-   std::cout<<"HELLO WORLD";
+#include <iostream>
+using namespace std;
+int main() {
+    cout << "size of char: " << sizeof(char) << " byte" << endl;
+    cout << "size of int: " << sizeof(int) << " byte" << endl;
+    cout << "size of float: " << sizeof(float) << " byte" << endl;
+    cout << "size of double: " << sizeof(double) << " byte" << endl;
+    cout << "size of short int: " << sizeof(short int) << "byte" << endl;
+    cout << "size of long int: " << sizeof(long int) << "byte" << endl;
+    cout << "size of unsigned char: " << sizeof(unsigned char) << "byte" << endl;
+    cout << "size of signed char: " << sizeof(signed char) << "byte" << endl;
+    cout << "size of unsigned int: " << sizeof(unsigned int) << "byte" << endl;
+    cout << "size of signed int: " << sizeof(signed int) << "byte" << endl;
+    cout << "size of unsigned long int: " << sizeof(unsigned long int) << "byte" << endl;
+    cout << "size of signed long int: " << sizeof(signed long int) << "byte" << endl;
+    cout << "size of unsigned short int: " << sizeof(unsigned short int) << "byte" << endl;
+    cout << "size of signed short int: " << sizeof(signed short int) << "byte" << endl;
+    cout << "size of unsigned long long int: " << sizeof(unsigned long long int) << "byte" << endl;
+    cout << "size of bool: " << sizeof(bool) << "byte" << endl;
     return 0;
 }
 ```
-## Conclusion:
 
 ## Output:
-![image](https://github.com/user-attachments/assets/dedc5068-16e6-4deb-a7fa-f21098f34806)
+![image](https://github.com/user-attachments/assets/18f0965a-798c-4c60-a040-517787a788e2)
+
+## Code:B
+```
+
 
 
