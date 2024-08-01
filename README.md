@@ -23,11 +23,11 @@ C++ has 5 types of storage classes which are as follows:
 + **Static**
 
 
-## Code:A
+## Code: 2A
 ```
 //KANWALJEET SINGH
 //ENTC B2
-//EXP 2.1
+//EXP 2A
 //23070123124
 #include <iostream>
 using namespace std;
@@ -55,8 +55,96 @@ int main() {
 ## Output:
 ![image](https://github.com/user-attachments/assets/18f0965a-798c-4c60-a040-517787a788e2)
 
-## Code:B
+## Code: 2B
 ```
+//KANWALJEET SINGH
+//ENTC B2
+//EXP 2B
+//23070123124
+#include<iostream>
+using namespace std;
+int main() {
+    int a;
+    char b;
+    signed char c;
+    unsigned char d;
+    float e;
+    double f;
+    long double g;
+    bool h;
+    cout<<"Enter an integer: ";                     
+    cin>>a;
+    cout<<"Size of int is:"<<sizeof(a)<<"\n";        
+
+    cout<<"Enter a character: ";                   
+    cin>>b;
+    cout<<"Size of char is:"<<sizeof(b)<<"\n";        
+
+    cout<<"Enter a character: ";                    
+    cin>>c;
+    cout<<"Size of signed char is:"<<sizeof(c)<<"\n";     
+
+    cout<<"Enter a character: ";                        
+    cin>>d;
+    cout<<"Size of unsigned char is:"<<sizeof(d)<<"\n";  
+
+    cout<<"Enter a number: ";                             
+    cin>>e;
+    cout<<"Size of float is:"<<sizeof(e)<<"\n";           
+    
+
+    cout<<"Enter a number: ";                            
+    cin>>f;
+    cout<<"Size of double is:"<<sizeof(f)<<"\n";         
+
+    cout<<"Enter a number: ";                           
+    cin>>g;
+    cout<<"Size of long double is:"<<sizeof(g)<<"\n";   
+
+    cout<<"Enter a bool value: ";                      
+    cin>>h;
+    cout<<"Size of bool is:"<<sizeof(h)<<"\n";            
+return 0;
+}
+```
+## Output:
+![image](https://github.com/user-attachments/assets/5b68d0c6-fdbf-4527-a2b6-840776e78b76)
+
+
+## Code: 2C
+```
+//KANWALJEET SINGH
+//ENTC B2
+//EXP 2C
+//23070123124
+#include<iostream>
+using namespace std;
+
+int main() {
+    int a;
+    cout<<"Enter a number: ";                       
+    cin>>a;
+    cout<<"\nInteger= "<<a<<" and size is "<<sizeof(a)<<" bytes.";  
+
+    register int b;
+    cout<<"\nEnter a number: ";                                     
+    cin>>b;
+    cout<<"\nRegister= "<<b<<" and size is "<<sizeof(b)<<" bytes.";   
+
+    static int d;
+    cout<<"\nEnter any number: ";                                      
+    cin>>d;
+    cout<<"\nStatic= "<<d<<" and size is "<<sizeof(d)<<" bytes.";      
+
+    return 0;
+}
+```
+
+## Output:
+![image](https://github.com/user-attachments/assets/7d622fab-7273-4c8b-8041-b527ee8dbde1)
+
+
+
 
 
 
