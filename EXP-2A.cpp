@@ -1,6 +1,6 @@
 //KANWALJEET SINGH
 //ENTC B2
-//EXP 2.1
+//EXP 2A
 //23070123124
 #include <iostream>
 using namespace std;
