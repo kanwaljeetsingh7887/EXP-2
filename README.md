@@ -8,7 +8,7 @@ Microsoft VSCode
 
 
 ## Theory:
-_Data types define the type of data that a variable can hold, such as `integers`, `floating-point numbers`, `characters`, and more.We can also find the size of these data types by using `sizeof` keyword. These data types can be subdivided into three parts which are as follows_
+_Data types define the type of data that a variable can hold, such as `integers`, `floating-point numbers`, `characters`, and more. We can also find the size of these data types by using `sizeof` keyword. These data types can be subdivided into three parts which are as follows_
 + **Basic Datatype**
 + **Derived Datatype**
 + **User-Defined Datatype**
