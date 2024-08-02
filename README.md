@@ -1,7 +1,7 @@
  # EXP 2
 
 ## Aim:
-**To study and implement C++ Program Structure (Data Types).**
+_**To study and implement C++ Program Structure (Data Types).**_
 
 ## **Software:** 
 Microsoft VSCode
